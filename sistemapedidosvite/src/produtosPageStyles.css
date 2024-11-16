@@ -1,0 +1,49 @@
+/* produtosPageStyles.css */
+.produtos-page {
+    padding: 20px;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* produtoFormStyles.css */
+  .produto-form-container {
+    padding: 20px;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+    max-width: 400px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* listaProdutosStyles.css */
+  .table-container {
+    padding: 20px;
+  }
+  
+  .produto-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+  }
+  
+  .produto-table th,
+  .produto-table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+  }
+  

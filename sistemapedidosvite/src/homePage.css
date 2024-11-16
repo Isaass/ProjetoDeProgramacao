@@ -1,0 +1,110 @@
+/* Estilo do cabeçalho com o logotipo */
+.header {
+  background-color: #006400; /* Verde escuro */
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  max-height: 50px;
+}
+
+.header .user-info {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header .user-info span {
+  margin-left: 8px;
+}
+
+/* Estilo geral da página */
+.page-container {
+  background-color: #333333; /* Cinza escuro */
+  min-height: 100vh;
+  padding-bottom: 80px; /* Para o rodapé */
+  color: white;
+}
+
+/* Estilo da mensagem de alerta */
+.alert-message {
+  background-color: #b8860b; /* Marrom/dourado */
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  font-weight: bold;
+}
+
+/* Estilo dos itens de estoque baixo */
+.low-stock-item {
+  background-color: #444; /* Cinza escuro */
+  color: white;
+  padding: 8px;
+  margin: 5px auto;
+  border-radius: 5px;
+  width: 75%;
+  max-width: 750px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Estilo dos botões de gerenciamento */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.manage-button {
+  background-color: #007bff; /* Azul */
+  color: white;
+  padding: 15px 30px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 300px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.manage-button:hover {
+  background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+.footer {
+  background-color: #222222; /* Cinza mais escuro */
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footer .copyright {
+  margin-left: 20px;
+}
+
+.footer .developer {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer .developer img {
+  height: 25px;
+  margin-right: 10px;
+}

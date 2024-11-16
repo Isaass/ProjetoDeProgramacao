@@ -1,0 +1,171 @@
+/* Estilo geral para a página do pedido */
+  
+  /* Cabeçalho da página */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header img {
+    height: 60px;
+  }
+  
+  .user-info {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Link para voltar */
+  .back-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container do formulário */
+  .form-container {
+    width: 90%; /* Aumente a largura para 90% ou até mesmo 100% para ocupá-la completamente */
+    max-width: 1500px; /* Caso queira limitar o tamanho máximo para monitores muito grandes */
+    height: 85vh; /* Ajuste a altura para 85% da altura da viewport */
+    background-color: #1d1f24;
+    padding: 40px; /* Aumente o padding para manter um espaçamento interno confortável */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Centraliza o formulário horizontalmente */
+    display: flex;
+    flex-direction: column; /* Garante que os filhos sejam exibidos em uma coluna */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+}
+  
+  /* Título do formulário */
+  .form-title {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* Container de seletores (rota e local) */
+  .select-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .select-container label {
+    display:contents;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .select-container select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #2a2d35;
+    color: #ffffff;
+  }
+  
+  /* Tabela de produtos */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .produto-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .produto-table thead {
+    background-color: #2a2d35;
+  }
+  
+  .produto-table th, 
+  .produto-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .produto-table th {
+    font-weight: bold;
+    color: #d1d1d1;
+    text-transform: uppercase;
+  }
+  
+  .produto-table tr:nth-child(even) {
+    background-color: #2a2d35;
+  }
+  
+  .produto-table tr:nth-child(odd) {
+    background-color: #1d1f24;
+  }
+  
+  .produto-table input[type="number"] {
+    width: 80%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #2a2d35;
+    color: #ffffff;
+  }
+  
+  /* Botão de Enviar Pedido */
+  .button-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .button-container button {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Rodapé da página */
+  .footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #1d1f24;
+    text-align: center;
+  }
+  
+  .footer .copyright {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .footer .developer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .footer .developer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  

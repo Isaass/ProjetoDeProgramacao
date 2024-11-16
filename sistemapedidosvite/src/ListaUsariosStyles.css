@@ -1,0 +1,87 @@
+/* Estilo da tabela de usuários */
+.usuarios-table-container {
+    margin: 20px;
+    overflow-x: auto;
+  }
+  
+  .usuarios-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .usuarios-table th, .usuarios-table td {
+    padding: 12px 15px;
+    border: 1px solid #444;
+  }
+  
+  .usuarios-table thead {
+    background-color: #004d00;
+    color: #ffffff;
+  }
+  
+  .usuarios-table tbody tr:nth-child(even) {
+    background-color: #3a3a3a;
+  }
+  
+  .usuarios-table tbody tr:nth-child(odd) {
+    background-color: #2d2d2d;
+  }
+  
+  .usuarios-table tbody tr:hover {
+    background-color: #555;
+  }
+  
+  .usuarios-table th {
+    background-color: #444;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .action-button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .edit-button i,
+  .delete-button i {
+    font-size: 1.2em;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Link de voltar */
+  .back-link {
+    margin-bottom: 15px;
+  }
+  
+  .back-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+  

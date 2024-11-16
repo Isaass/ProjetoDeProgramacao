@@ -1,0 +1,100 @@
+/* loginStyles.css */
+
+/* Estilo da página de login inteira */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1c1c1c; /* Cor de fundo escura */
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif; /* Fonte definida globalmente */
+}
+
+/* Contêiner do formulário de login */
+.login-container {
+  background-color: #2b2b2b; /* Cor escura para o contêiner */
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Logo no formulário de login */
+.login-logo {
+  max-width: 180px; /* Aumentar um pouco o tamanho da logo para destacá-la */
+  margin-bottom: 1.5rem;
+}
+
+/* Título do formulário de login */
+.login-title {
+  font-size: 2rem; /* Deixar o título grande e destacado */
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo dos inputs de login */
+.login-input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 8px;
+  background: #3c3c3c;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* Estilo do botão de login */
+.login-button {
+  background-color: #007bff; /* Cor azul */
+  color: #ffffff;
+  padding: 12px;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-size: 1.1rem; /* Aumentar um pouco o tamanho da fonte */
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Cor azul escuro ao passar o mouse */
+}
+
+/* Estilo da senha com ícone de visualização */
+.password-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.password-input {
+  width: 100%;
+  padding-right: 40px; /* Espaço para o ícone de olho */
+}
+
+.show-password-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Estilo do link "Esqueceu sua senha?" */
+.login-container a {
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}

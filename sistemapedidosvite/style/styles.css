@@ -1,0 +1,144 @@
+/* Reset básico para remover margens e garantir ocupação total da tela */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Fazendo a página ocupar toda a largura e altura */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Estrutura da página */
+.page-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho de navegação */
+.header-nav {
+  width: 100%;
+  background-color: #006400; /* Verde escuro */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Links de navegação no cabeçalho */
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Botão de logout no cabeçalho */
+.logout-button {
+  background-color: #ff4d4d; /* Cor vermelha para destaque */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #ff1a1a;
+}
+
+/* Conteúdo principal da aplicação */
+.content-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto; /* Permite rolagem caso o conteúdo exceda a altura */
+  background-color: #2f2f2f; /* Cor de fundo do conteúdo */
+}
+
+/* Cabeçalho do usuário logado */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #006400;
+  color: white;
+}
+
+.nav-brand h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.user-info {
+  position: relative;
+  cursor: pointer;
+}
+
+.user-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.user-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.dropdown-arrow {
+  font-size: 0.75rem;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #333;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.user-dropdown .dropdown-item {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.user-dropdown .dropdown-item:hover {
+  background-color: #444;
+}
+
+/* Botões no dropdown do usuário */
+.button-item {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.button-item:hover {
+  background-color: #0056b3;
+}

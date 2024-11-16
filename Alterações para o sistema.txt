@@ -1,0 +1,29 @@
+Alterações para o sistema:
+
+1- Visibilidade do usuário logado no cabeçalho ✅
+
+Gerenciador de Usuários
+1- Adicionar o nome completo no gerenciador de usuários ✅
+
+Gerenciador de Locais
+1- Adicionar as rotas no banco ✅
+2- Adicionar o filtro por rota ✅
+3- No adicionar locais atualizar a visualização, e tornar a adição de rotas funcionais ✅
+
+Gerenciador de Produtos
+1- Alterar a quantidade para funcionar como estoque e atualizar a cada pedido ✅
+2- Adicionar a tipagem do produto DB e adicionar os selects para a tipagem produto novo
+e atualizado ✅
+
+Gerenciador de Pedidos
+1- Adicionar visualização de data na tabela ✅
+2- Alterar a visualização de Local de ID por nome do local ✅
+3- Adicionar as rota na tabela ✅
+4- Talvez fazer as exportações
+5- Adicionar o filtro por rotas ✅
+6- Editor de pedido funcional
+
+Pósss
+1- Arrumar visualização para os cargos
+2- Refazer a estilização de todas as páginas
+3- Adicionar aviso de estoque para os produtos abaixo de 50 unidades

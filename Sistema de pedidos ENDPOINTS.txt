@@ -1,0 +1,34 @@
+USUSARIO
+
+GET: http://localhost:8080/api/sistemapedidos/usuarios
+PUT: http://localhost:8080/api/sistemapedidos/usuarios/{ID}/perfil
+POST LOGIN: http://localhost:8080/api/sistemapedidos/usuarios/entrar
+POST CADASTRO: http://localhost:8080/api/sistemapedidos/usuarios/cadastro
+DELETE: http://localhost:8080/api/sistemapedidos/usuarios/{ID}
+
+
+PRODUTO
+
+POST: http://localhost:8080/api/sistemapedidos/produtos
+GET: http://localhost:8080/api/sistemapedidos/produtos
+PUT: http://localhost:8080/api/sistemapedidos/produtos/{ID}
+DELETE: http://localhost:8080/api/sistemapedidos/produtos/{ID}
+
+PEDIDO
+
+POST: http://localhost:8080/api/sistemapedidos/pedidos
+GET: http://localhost:8080/api/sistemapedidos/pedidos
+PUT: http://localhost:8080/api/sistemapedidos/pedidos/{ID}
+DELETE: http://localhost:8080/api/sistemapedidos/pedidos/{ID}
+
+LOCAL
+
+POST: http://localhost:8080/api/sistemapedidos/locais
+GET: http://localhost:8080/api/sistemapedidos/locais
+PUT: http://localhost:8080/api/sistemapedidos/locais/
+DELETE: http://localhost:8080/api/sistemapedidos/locais/{ID}
+
+
+
+
+

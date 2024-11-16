@@ -1,0 +1,32 @@
+.table-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .local-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .local-table th,
+  .local-table td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .action-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-button.edit {
+    color: #007bff;
+  }
+  
+  .action-button.delete {
+    color: #ff0000;
+  }
+  

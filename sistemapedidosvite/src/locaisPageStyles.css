@@ -1,0 +1,115 @@
+/* locaisPageStyles.css */
+
+.locais-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .page-header {
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 10px;
+  }
+  
+  .locais-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .add-local-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-local-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Adicione aqui o CSS necessário para ListaLocais */
+  
+  .locais-container {
+    width: 80%;
+    max-width: 1000px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .filtro-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filtro-container label {
+    margin-right: 10px;
+    color: #ffffff;
+  }
+  
+  .filtro-container select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .locais-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .locais-table th,
+  .locais-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    color: #ffffff;
+  }
+  
+  .locais-table th {
+    background-color: #333;
+  }
+  
+  .locais-table tr:hover {
+    background-color: #444;
+  }
+  
+  .editar-button,
+  .deletar-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .editar-button {
+    color: #007bff;
+  }
+  
+  .deletar-button {
+    color: #ff4d4d;
+  }
+  
+  .editar-button:hover {
+    color: #0056b3;
+  }
+  
+  .deletar-button:hover {
+    color: #e60000;
+  }
+  
